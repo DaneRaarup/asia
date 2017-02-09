@@ -24,6 +24,11 @@ h6, .h6 {
   color: #333;
 }
 
+.nav-item, .navbar-brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+}
+
 
 /*
  * Override Bootstrap's default container.
