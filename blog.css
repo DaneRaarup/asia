@@ -165,12 +165,10 @@ h6, .h6 {
   text-align: center;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
+  max-width: 60rem;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
 
-.blog-footer p {
-  max-width: 80%;
-  
-}
+
