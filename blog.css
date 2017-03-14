@@ -55,11 +55,30 @@ h6, .h6 {
   margin-right: 0rem;
   margin-bottom: 3rem;
   background-color: #1AA59A;
+  -webkit-animation: color-animate 15s infinite alternate linear; 
+     -moz-animation: color-animate 15s infinite alternate linear; 
   -webkit-box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
           box-shadow: inset 0 -.1rem .25rem rgba(0,0,0,.1);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@-webkit-keyframes color-animate {
+    0%   { background: #1AA59A; } 
+    20%  { background: #14BC7F; }
+    40%  { background: #13B24B; }
+    60%  { background: #14BC7F; }
+    80%  { background: #1AA59A; }
+    100% { background: #149CBC; }
+}
+
+@-moz-keyframes color-animate {
+    0%   { background: #1AA59A; } 
+    20%  { background: #14BC7F; }
+    40%  { background: #13B24B; }
+    60%  { background: #14BC7F; }
+    80%  { background: #1AA59A; }
+    100% { background: #149CBC; }
+}
 /* Nav links */
 .nav-link {
   position: relative;
